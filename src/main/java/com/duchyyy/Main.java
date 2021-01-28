@@ -12,6 +12,8 @@ import com.duchyyy.strategy.BlackAndWhiteFilter;
 import com.duchyyy.strategy.ImageStorage;
 import com.duchyyy.strategy.JpegCompressor;
 import com.duchyyy.strategy.PngCompressor;
+import com.duchyyy.templatemethod.GenerateReportTask;
+import com.duchyyy.templatemethod.TransferMoneyTask;
 
 public class Main {
 
@@ -51,6 +53,13 @@ public class Main {
 //        ImageStorage imageStorage = new ImageStorage(/*
 //                new PngCompressor(),new BlackAndWhiteFilter()*/);
 //        imageStorage.store("first",new PngCompressor(),new BlackAndWhiteFilter());
+
+//  template method pattern
+//        TransferMoneyTask transferMoneyTask = new TransferMoneyTask();
+//        transferMoneyTask.execute();
+//
+//        GenerateReportTask generateReportTask = new GenerateReportTask();
+//        generateReportTask.execute();
 
 
 
