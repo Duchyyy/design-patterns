@@ -1,5 +1,7 @@
 package com.duchyyy;
 
+import com.duchyyy.iterator.BrowseHistory;
+import com.duchyyy.iterator.Iterator;
 import com.duchyyy.memento.Editor;
 import com.duchyyy.memento.History;
 import com.duchyyy.state.Brush;
@@ -27,6 +29,20 @@ public class Main {
 //        canvas.setCurrentTool(new Pen());
 //        canvas.mouseDown();
 //        canvas.mouseUp();
+
+//  iterator pattern
+//        BrowseHistory history = new BrowseHistory();
+//        history.push("a");
+//        history.push("b");
+//        history.push("c");
+//
+//        Iterator iterator = history.createIterator();
+//        while (iterator.hasNext()) {
+//            String url = (String)iterator.current();
+//            System.out.println(url);
+//            iterator.next();
+//        }
+
 
     }
 
