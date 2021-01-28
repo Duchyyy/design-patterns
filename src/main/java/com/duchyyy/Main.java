@@ -8,6 +8,10 @@ import com.duchyyy.state.Brush;
 import com.duchyyy.state.Canvas;
 import com.duchyyy.state.Pen;
 import com.duchyyy.state.SelectionTool;
+import com.duchyyy.strategy.BlackAndWhiteFilter;
+import com.duchyyy.strategy.ImageStorage;
+import com.duchyyy.strategy.JpegCompressor;
+import com.duchyyy.strategy.PngCompressor;
 
 public class Main {
 
@@ -42,6 +46,12 @@ public class Main {
 //            System.out.println(url);
 //            iterator.next();
 //        }
+
+//  strategy pattern
+//        ImageStorage imageStorage = new ImageStorage(/*
+//                new PngCompressor(),new BlackAndWhiteFilter()*/);
+//        imageStorage.store("first",new PngCompressor(),new BlackAndWhiteFilter());
+
 
 
     }
