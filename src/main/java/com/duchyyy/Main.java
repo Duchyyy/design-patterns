@@ -2,6 +2,10 @@ package com.duchyyy;
 
 import com.duchyyy.memento.Editor;
 import com.duchyyy.memento.History;
+import com.duchyyy.state.Brush;
+import com.duchyyy.state.Canvas;
+import com.duchyyy.state.Pen;
+import com.duchyyy.state.SelectionTool;
 
 public class Main {
 
@@ -17,6 +21,12 @@ public class Main {
 //        editor.setContent("box");
 //        editor.restore(history.pop());
 //        System.out.println(editor.getContent());
+
+//  state pattern
+//        Canvas canvas = new Canvas();
+//        canvas.setCurrentTool(new Pen());
+//        canvas.mouseDown();
+//        canvas.mouseUp();
 
     }
 
