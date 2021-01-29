@@ -109,10 +109,10 @@ public class Main {
 //
 //        dataSource.setValue(1);
 
-//  mediator pattern
-        ArticlesDialogBox dialogBox = new ArticlesDialogBox();
-        dialogBox.simulateUserInteraction();
-// possible using observer
+////  mediator pattern
+//        ArticlesDialogBox dialogBox = new ArticlesDialogBox();
+//        dialogBox.simulateUserInteraction();
+//// possible using observer
 
 
 
