@@ -27,6 +27,8 @@ import com.duchyyy.strategy.JpegCompressor;
 import com.duchyyy.strategy.PngCompressor;
 import com.duchyyy.templatemethod.GenerateReportTask;
 import com.duchyyy.templatemethod.TransferMoneyTask;
+import com.duchyyy.visitor.*;
+import com.duchyyy.visitor.HtmlDocument;
 
 public class Main {
 
@@ -123,6 +125,12 @@ public class Main {
 //
 //        WebServer server = new WebServer(authenticator);
 //        server.handle(new HttpRequest("admin", "1234"));
+
+//  visitor pattern
+//        HtmlDocument document = new HtmlDocument();
+//        document.add(new HeadingNode());
+//        document.add(new AnchorNode());
+//        document.execute(new PlainTextOperation());
 
 
 
