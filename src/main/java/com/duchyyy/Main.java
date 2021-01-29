@@ -1,5 +1,6 @@
 package com.duchyyy;
 
+import com.duchyyy.chainOfResponsibility.*;
 import com.duchyyy.command.AddCustomerCommand;
 import com.duchyyy.command.CompositeCommand;
 import com.duchyyy.command.CustomerService;
@@ -113,6 +114,15 @@ public class Main {
 //        ArticlesDialogBox dialogBox = new ArticlesDialogBox();
 //        dialogBox.simulateUserInteraction();
 //// possible using observer
+
+// chain of responsibility pattern
+//        Encryptor encryptor = new Encryptor(null);
+//        Compressor compressor = new Compressor(encryptor);
+//        Logger logger = new Logger(compressor);
+//        Authenticator authenticator = new Authenticator(logger);
+//
+//        WebServer server = new WebServer(authenticator);
+//        server.handle(new HttpRequest("admin", "1234"));
 
 
 
