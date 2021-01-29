@@ -1,6 +1,11 @@
 package com.duchyyy;
 
 
+import com.duchyyy.structural.adapter.CaramelFilter;
+import com.duchyyy.structural.adapter.Image;
+import com.duchyyy.structural.adapter.ImageView;
+import com.duchyyy.structural.adapter.VividFilter;
+import com.duchyyy.structural.adapter.avaFilters.Caramel;
 import com.duchyyy.structural.composite.Group;
 import com.duchyyy.structural.composite.Shape;
 
@@ -121,6 +126,11 @@ public class Main {
 //        group.add(group2);
 //        group.render();
 //        group.move();
+
+//  adapter pattern
+//        ImageView imageView = new ImageView(new Image());
+//        imageView.apply(new CaramelFilter(new Caramel()));
+
 
 
 
