@@ -6,6 +6,10 @@ import com.duchyyy.structural.adapter.Image;
 import com.duchyyy.structural.adapter.ImageView;
 import com.duchyyy.structural.adapter.VividFilter;
 import com.duchyyy.structural.adapter.avaFilters.Caramel;
+import com.duchyyy.structural.bridge.AdvancedRemoteControl;
+import com.duchyyy.structural.bridge.RemoteControl;
+import com.duchyyy.structural.bridge.SamsungTV;
+import com.duchyyy.structural.bridge.SonyTV;
 import com.duchyyy.structural.composite.Group;
 import com.duchyyy.structural.composite.Shape;
 import com.duchyyy.structural.decorator.CloudStream;
@@ -150,6 +154,12 @@ public class Main {
 //        PointService service = new PointService(new PointIconFactory());
 //        for(Point point : service.getPoints())
 //            point.draw();
+
+// bridge pattern
+//        RemoteControl remoteControl = new AdvancedRemoteControl(new SamsungTV());
+//        remoteControl.turnOn();
+
+
 
 
 
