@@ -1,34 +1,5 @@
 package com.duchyyy;
 
-import com.duchyyy.chainOfResponsibility.*;
-import com.duchyyy.command.AddCustomerCommand;
-import com.duchyyy.command.CompositeCommand;
-import com.duchyyy.command.CustomerService;
-import com.duchyyy.command.editor.*;
-import com.duchyyy.command.fx.BlackAndWhiteCommand;
-import com.duchyyy.command.fx.Button;
-import com.duchyyy.command.fx.Command;
-import com.duchyyy.command.fx.ResizeCommand;
-import com.duchyyy.iterator.BrowseHistory;
-import com.duchyyy.iterator.Iterator;
-import com.duchyyy.mediator.ArticlesDialogBox;
-//import com.duchyyy.mediator.DialogBox;
-import com.duchyyy.memento.Editor;
-import com.duchyyy.observer.Chart;
-import com.duchyyy.observer.DataSource;
-import com.duchyyy.observer.SpreadSheet;
-import com.duchyyy.state.Brush;
-import com.duchyyy.state.Canvas;
-import com.duchyyy.state.Pen;
-import com.duchyyy.state.SelectionTool;
-import com.duchyyy.strategy.BlackAndWhiteFilter;
-import com.duchyyy.strategy.ImageStorage;
-import com.duchyyy.strategy.JpegCompressor;
-import com.duchyyy.strategy.PngCompressor;
-import com.duchyyy.templatemethod.GenerateReportTask;
-import com.duchyyy.templatemethod.TransferMoneyTask;
-import com.duchyyy.visitor.*;
-import com.duchyyy.visitor.HtmlDocument;
 
 public class Main {
 
