@@ -11,6 +11,9 @@ import com.duchyyy.command.fx.ResizeCommand;
 import com.duchyyy.iterator.BrowseHistory;
 import com.duchyyy.iterator.Iterator;
 import com.duchyyy.memento.Editor;
+import com.duchyyy.observer.Chart;
+import com.duchyyy.observer.DataSource;
+import com.duchyyy.observer.SpreadSheet;
 import com.duchyyy.state.Brush;
 import com.duchyyy.state.Canvas;
 import com.duchyyy.state.Pen;
@@ -91,6 +94,18 @@ public class Main {
 //        UndoCommand undoCommand = new UndoCommand(history);
 //        undoCommand.execute();
 //        System.out.println(document.getContent());
+
+//  observer pattern
+//        DataSource dataSource = new DataSource();
+//        SpreadSheet sheet1 = new SpreadSheet(dataSource);
+//        SpreadSheet sheet2 = new SpreadSheet(dataSource);
+//        Chart chart = new Chart(dataSource);
+//
+//        dataSource.addObserver(sheet1);
+//        dataSource.addObserver(sheet2);
+//        dataSource.addObserver(chart);
+//
+//        dataSource.setValue(1);
 
 
 
