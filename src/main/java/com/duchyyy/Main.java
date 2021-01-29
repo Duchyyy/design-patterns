@@ -1,9 +1,16 @@
 package com.duchyyy;
 
+import com.duchyyy.command.AddCustomerCommand;
+import com.duchyyy.command.CompositeCommand;
+import com.duchyyy.command.CustomerService;
+import com.duchyyy.command.editor.*;
+import com.duchyyy.command.fx.BlackAndWhiteCommand;
+import com.duchyyy.command.fx.Button;
+import com.duchyyy.command.fx.Command;
+import com.duchyyy.command.fx.ResizeCommand;
 import com.duchyyy.iterator.BrowseHistory;
 import com.duchyyy.iterator.Iterator;
 import com.duchyyy.memento.Editor;
-import com.duchyyy.memento.History;
 import com.duchyyy.state.Brush;
 import com.duchyyy.state.Canvas;
 import com.duchyyy.state.Pen;
@@ -60,6 +67,31 @@ public class Main {
 //
 //        GenerateReportTask generateReportTask = new GenerateReportTask();
 //        generateReportTask.execute();
+
+//  command pattern
+//        CustomerService service = new CustomerService();
+//        AddCustomerCommand command = new AddCustomerCommand(service);
+//        Button button = new Button(command);
+//        button.setLabel("btn1");
+//        button.click();
+//
+//        CompositeCommand compositeCommand = new CompositeCommand();
+//        compositeCommand.add(new ResizeCommand());
+//        compositeCommand.add(new BlackAndWhiteCommand());
+//        compositeCommand.execute();
+//
+//        History history = new History();
+//        HtmlDocument document = new HtmlDocument();
+//        document.setContent("hello world");
+//
+//        BoldCommand boldCommand = new BoldCommand(document,history);
+//        boldCommand.execute();
+//        System.out.println(document.getContent());
+//
+//        UndoCommand undoCommand = new UndoCommand(history);
+//        undoCommand.execute();
+//        System.out.println(document.getContent());
+
 
 
 
