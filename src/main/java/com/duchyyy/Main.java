@@ -1,25 +1,10 @@
 package com.duchyyy;
 
 
-import com.duchyyy.structural.adapter.CaramelFilter;
-import com.duchyyy.structural.adapter.Image;
-import com.duchyyy.structural.adapter.ImageView;
-import com.duchyyy.structural.adapter.VividFilter;
-import com.duchyyy.structural.adapter.avaFilters.Caramel;
-import com.duchyyy.structural.bridge.AdvancedRemoteControl;
-import com.duchyyy.structural.bridge.RemoteControl;
-import com.duchyyy.structural.bridge.SamsungTV;
-import com.duchyyy.structural.bridge.SonyTV;
-import com.duchyyy.structural.composite.Group;
-import com.duchyyy.structural.composite.Shape;
-import com.duchyyy.structural.decorator.CloudStream;
-import com.duchyyy.structural.decorator.CompressedCloudStream;
-import com.duchyyy.structural.decorator.EncryptedCloudStream;
-import com.duchyyy.structural.decorator.Stream;
-import com.duchyyy.structural.facade.*;
-import com.duchyyy.structural.flyweight.Point;
-import com.duchyyy.structural.flyweight.PointIconFactory;
-import com.duchyyy.structural.flyweight.PointService;
+import com.duchyyy.structural.proxy.EbookProxy;
+import com.duchyyy.structural.proxy.Library;
+import com.duchyyy.structural.proxy.LoggingEbookProxy;
+import com.duchyyy.structural.proxy.RealEbook;
 
 public class Main {
 
@@ -159,7 +144,15 @@ public class Main {
 //        RemoteControl remoteControl = new AdvancedRemoteControl(new SamsungTV());
 //        remoteControl.turnOn();
 
-
+//  proxy
+//        Library library = new Library();
+//        String[] fileNames = {"a","b","c"};
+//
+//        for (String fileName : fileNames)
+//            library.add(new LoggingEbookProxy(fileName));
+//
+//        library.openEbook("a");
+//        library.openEbook("b");
 
 
 
