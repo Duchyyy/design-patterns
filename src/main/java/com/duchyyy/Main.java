@@ -13,6 +13,9 @@ import com.duchyyy.structural.decorator.CompressedCloudStream;
 import com.duchyyy.structural.decorator.EncryptedCloudStream;
 import com.duchyyy.structural.decorator.Stream;
 import com.duchyyy.structural.facade.*;
+import com.duchyyy.structural.flyweight.Point;
+import com.duchyyy.structural.flyweight.PointIconFactory;
+import com.duchyyy.structural.flyweight.PointService;
 
 public class Main {
 
@@ -143,6 +146,10 @@ public class Main {
 //        NotificationService service = new NotificationService();
 //        service.send("helllo world", "target");
 
+//  flyweight pattern
+//        PointService service = new PointService(new PointIconFactory());
+//        for(Point point : service.getPoints())
+//            point.draw();
 
 
 
