@@ -12,6 +12,7 @@ import com.duchyyy.structural.decorator.CloudStream;
 import com.duchyyy.structural.decorator.CompressedCloudStream;
 import com.duchyyy.structural.decorator.EncryptedCloudStream;
 import com.duchyyy.structural.decorator.Stream;
+import com.duchyyy.structural.facade.*;
 
 public class Main {
 
@@ -137,6 +138,10 @@ public class Main {
 
 //  decorator pattern
 //        storeCreditCard(new EncryptedCloudStream(new CloudStream()));
+
+//  facade pattern
+//        NotificationService service = new NotificationService();
+//        service.send("helllo world", "target");
 
 
 
