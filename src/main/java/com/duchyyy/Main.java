@@ -10,6 +10,8 @@ import com.duchyyy.command.fx.Command;
 import com.duchyyy.command.fx.ResizeCommand;
 import com.duchyyy.iterator.BrowseHistory;
 import com.duchyyy.iterator.Iterator;
+import com.duchyyy.mediator.ArticlesDialogBox;
+//import com.duchyyy.mediator.DialogBox;
 import com.duchyyy.memento.Editor;
 import com.duchyyy.observer.Chart;
 import com.duchyyy.observer.DataSource;
@@ -107,6 +109,10 @@ public class Main {
 //
 //        dataSource.setValue(1);
 
+//  mediator pattern
+        ArticlesDialogBox dialogBox = new ArticlesDialogBox();
+        dialogBox.simulateUserInteraction();
+// possible using observer
 
 
 
