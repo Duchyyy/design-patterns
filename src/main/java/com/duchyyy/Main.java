@@ -8,6 +8,10 @@ import com.duchyyy.structural.adapter.VividFilter;
 import com.duchyyy.structural.adapter.avaFilters.Caramel;
 import com.duchyyy.structural.composite.Group;
 import com.duchyyy.structural.composite.Shape;
+import com.duchyyy.structural.decorator.CloudStream;
+import com.duchyyy.structural.decorator.CompressedCloudStream;
+import com.duchyyy.structural.decorator.EncryptedCloudStream;
+import com.duchyyy.structural.decorator.Stream;
 
 public class Main {
 
@@ -131,9 +135,17 @@ public class Main {
 //        ImageView imageView = new ImageView(new Image());
 //        imageView.apply(new CaramelFilter(new Caramel()));
 
+//  decorator pattern
+//        storeCreditCard(new EncryptedCloudStream(new CloudStream()));
+
+
 
 
 
     }
+    //decorator
+//    public static void storeCreditCard(Stream stream) {
+//        stream.write("1234-1234-1324-1546");
+//    }
 
 }
