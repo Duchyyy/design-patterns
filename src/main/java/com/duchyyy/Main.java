@@ -2,6 +2,8 @@ package com.duchyyy;
 
 
 import com.duchyyy.creational.builder.User;
+import com.duchyyy.creational.factory.Car;
+import com.duchyyy.creational.factory.Factory;
 import com.duchyyy.creational.singleton.SingletonExample;
 import com.duchyyy.structural.proxy.EbookProxy;
 import com.duchyyy.structural.proxy.Library;
@@ -171,6 +173,9 @@ public class Main {
 //
 //        user.sayHello();
 
+//  factory
+//    Car car = Factory.carFactory("Porsche", "NR152GR");
+//    car.rev();
 
 
 
