@@ -1,6 +1,7 @@
 package com.duchyyy;
 
 
+import com.duchyyy.creational.builder.User;
 import com.duchyyy.creational.singleton.SingletonExample;
 import com.duchyyy.structural.proxy.EbookProxy;
 import com.duchyyy.structural.proxy.Library;
@@ -160,6 +161,15 @@ public class Main {
 //  singleton
 //        SingletonExample singletonInstance = SingletonExample.getInstance();
 //        singletonInstance.printData();
+
+//  builder
+//        User user = User.newUser()
+//                .firstName("Andrej")
+//                .lastName("Duchoslav")
+//                .age(25)
+//                .build();
+//
+//        user.sayHello();
 
 
 
