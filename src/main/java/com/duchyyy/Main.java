@@ -4,6 +4,7 @@ package com.duchyyy;
 import com.duchyyy.creational.builder.User;
 import com.duchyyy.creational.factory.Car;
 import com.duchyyy.creational.factory.Factory;
+import com.duchyyy.creational.prototype.Book;
 import com.duchyyy.creational.singleton.SingletonExample;
 import com.duchyyy.structural.proxy.EbookProxy;
 import com.duchyyy.structural.proxy.Library;
@@ -177,6 +178,13 @@ public class Main {
 //    Car car = Factory.carFactory("Porsche", "NR152GR");
 //    car.rev();
 
+//  prototype
+//        Book book1 = new Book("First",new String[]{"Nick","Andrew"},20);
+//        Book book2 = book1.clone();
+//        book2.setName("Second");
+//
+//        System.out.println(book1.getName());
+//        System.out.println(book2.getName());
 
 
 
