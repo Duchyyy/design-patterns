@@ -1,6 +1,7 @@
 package com.duchyyy;
 
 
+import com.duchyyy.creational.singleton.SingletonExample;
 import com.duchyyy.structural.proxy.EbookProxy;
 import com.duchyyy.structural.proxy.Library;
 import com.duchyyy.structural.proxy.LoggingEbookProxy;
@@ -153,6 +154,13 @@ public class Main {
 //
 //        library.openEbook("a");
 //        library.openEbook("b");
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+//  singleton
+//        SingletonExample singletonInstance = SingletonExample.getInstance();
+//        singletonInstance.printData();
+
 
 
 
