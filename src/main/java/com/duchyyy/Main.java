@@ -1,6 +1,9 @@
 package com.duchyyy;
 
 
+import com.duchyyy.creational.abstractFactory.MotorFactory;
+import com.duchyyy.creational.abstractFactory.MotorlessFactory;
+import com.duchyyy.creational.abstractFactory.Vehicle;
 import com.duchyyy.creational.builder.User;
 import com.duchyyy.creational.factory.Car;
 import com.duchyyy.creational.factory.Factory;
@@ -178,6 +181,14 @@ public class Main {
 //    Car car = Factory.carFactory("Porsche", "NR152GR");
 //    car.rev();
 
+//  abstract factory
+//        MotorFactory motorFactory = new MotorFactory();
+//        MotorlessFactory motorlessFactory = new MotorlessFactory();
+//
+//        Vehicle car = motorFactory.createFourWheeled();
+//        Vehicle twoWheeled = motorlessFactory.createTwoWheeled(); //bicycle
+
+
 //  prototype
 //        Book book1 = new Book("First",new String[]{"Nick","Andrew"},20);
 //        Book book2 = book1.clone();
@@ -185,7 +196,6 @@ public class Main {
 //
 //        System.out.println(book1.getName());
 //        System.out.println(book2.getName());
-
 
 
     }
